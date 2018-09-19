@@ -22,7 +22,7 @@
 
         <Button
             android:id="@+id/btn"
-            android:text="촬영"
+            android:text="촬영할려면 누르지마"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
