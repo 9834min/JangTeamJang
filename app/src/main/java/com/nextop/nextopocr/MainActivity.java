@@ -58,7 +58,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         */
-        sendTakePhotoIntent();
+
+        Button recordButton = (Button) findViewById(R.id.btnTakePicture);
+        recordButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RecordActivity.class);
+                startActivity(intent);
+            }
+        });
+        //sendTakePhotoIntent();
     }
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
