@@ -10,3 +10,6 @@
 /build
 /captures
 .externalNativeBuild
+*words
+*__pycache__
+*graph_data
