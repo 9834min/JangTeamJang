@@ -1,1 +1,1 @@
-"/home/philip/Documents/MNIST"
+/home/philip/Documents/MNIST

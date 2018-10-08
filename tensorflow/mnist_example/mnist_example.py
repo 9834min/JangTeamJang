@@ -41,7 +41,7 @@ sess.run(init)
 arr = None
 before = None
 
-IMG_SHOW = False
+IMG_SHOW = True
 
 for cnt in range(1000):
     batchXs, batchYs = mnist.train.next_batch(100)
