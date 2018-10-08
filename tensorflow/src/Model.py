@@ -212,7 +212,7 @@ class Model:
 	def save(self):
 		"save model to file"
 		self.snapID += 1
-		self.saver.save(self.sess, '../model/snapshot', global_step=self.snapID)
-		self.saver.save(self.sess, '../OCRModel/trainded.ckpt')
-		tf.train.write_graph(self.sess.graph_def, ".", "../OCRModel/trainded.pb", as_text=False)
+		#self.saver.save(self.sess, '../model/snapshot', global_step=self.snapID)
+		self.saver.save(self.sess, '../model/trainded.ckpt')
+		tf.train.write_graph(self.sess.graph_def, ".", "../model/trainded.pb", as_text=False)
  
