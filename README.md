@@ -12,6 +12,8 @@ Development Tool : Android Studio 3.1.4
 
 License : Apache 2.0
 
+OCR SDK : ABBYY RTR SDK
+
 JAVA Language Rules
 ----------------------------
 
