@@ -30,10 +30,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    //api "org.tensorflow:tensorflow:1.10.0"
-    //api files('libs/tensorflow-1.10.0.jar')
-    //api files('libs/libtensorflow-1.10.0.jar')
-    //api files('libs/libtensorflow-1.10.0-sources.jar')
-    //api files('libs/libtensorflow_jni-1.10.0.jar')
-    //api files('libs/tensorflow-android-1.10.0@aar')
 }
